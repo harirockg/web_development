@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse:collapse;
+            text-align:center;
+            caption-side:bottom;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption> my table</caption>
+        <tr>
+            <td colspan="2">abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td >abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="2" colspan="2">abcd</td>
+            <!-- <td>abcd</td> -->
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td>
+            <td>abcd</td> -->
+        </tr>
+    </table>
+    <!-- new table -->
+     <hr>
+
+     <table>
+
+        <colgroup>
+        <!-- <col span="3 " style="background-color:aquamarine"> -->
+        <!-- <col span="" style="background-color:aquamarine"> -->
+         <col span="">
+        <col span="2" style="background-color:lightgreen">
+        <!-- <col span="" style="background-color:lightgreen"> -->
+        <col span="" style="background-color:yellowgreen">
+        </colgroup>
+        
+
+        <tr>
+            <td rowspan="2">State of health</td>
+            <td colspan="2">fasting value</td>
+            <!-- <td></td> -->
+            <td>After Eating </td>
+        </tr>
+        <tr>
+            
+            <!-- <td></td> -->
+             <td>minm</td>
+            <td>maxm</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140  to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>NA</td>
+            <td>More than 200</td>
+        </tr>
+     </table>
+</body>
+</html>

@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
+    <style>
+
+        #div1{
+            background-color: red;
+            width:500px;
+            height:100px;
+        }
+        #div2{
+            background-color: greenyellow;
+            width:10%;
+            height:10%;
+            margin:10px;
+            padding:10px;
+        }
+
+ 
+        .box{
+            height: 200px;
+            width:200px;
+            border: 5px solid black;
+            background-color: yellow;
+            margin: 10px;
+            
+        }
+        #yel{
+            background-color: yellow;
+
+        }
+        #wht{
+            background-color: white;
+        }
+        #red{
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-    <div class="box">A</div>
+
+    <div id="div1">
+        <div id="div2"></div>
+    </div>
+
+<hr>
+    <br>
+    <div class="box" id="yel">A</div>
+    
+    <div class="box" id="wht">B</div>
+    
+    <div class="box" id="red">C</div>
+
+    
 </body>
 </html>

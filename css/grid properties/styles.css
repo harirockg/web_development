@@ -27,6 +27,16 @@
     align-content: space-evenly;
     align-content: space-around;  */
 
+    /* justify-content: center;
+   
+    align-content: center; */
+
+    /* place-content: center; */
+    /* justify-items: center;
+    align-items: center; */
+
+    place-items: center;
+
 
 
 }
@@ -37,6 +47,7 @@
 }
 
 #box1{
+    
     /* justify-self: start;
     justify-self: end;
     justify-self: center; */

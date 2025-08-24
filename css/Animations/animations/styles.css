@@ -1,0 +1,53 @@
+.container{
+    height: 215px;
+    width: 100%;
+    background-color: yellow;
+    border: 2px solid red;
+}
+.box{
+    border: 2px solid green;
+    height: 212px;
+    width: 212px;
+    background-color: aqua;
+
+    animation-name: hari;
+    animation-duration: 3s;
+    animation-iteration-count: 4;    /* put infinite at 4 for infinite times */
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-direction: normal; /*put reverse at normal for reverse animation*/
+    animation-fill-mode: forwards;/*backwards se wapas apni jagah a jayegi aur forwards se pura cover kar ke ruk jayegi*/
+
+}
+
+@keyframes hari{
+    0%{
+        width: 212px;
+        background-color: aqua;
+    }
+
+    30%{
+        width: 35%;
+        background-color: aquamarine;
+    }
+
+    65%{
+        width:70%;
+        background-color: blue;
+    }
+
+    100%{
+        width: 100%;
+        background-color: violet;
+    }
+
+}
+
+/* @keyframes hari{
+    from{
+        width: 212px;
+    }
+    to{
+        width: 800px;
+    }
+} */
